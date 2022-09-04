@@ -1,0 +1,19 @@
+package com.garashchuk.dmytro;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите катет а");
+        double a = sc.nextInt();
+        System.out.println("Введите катет b");
+        double b = sc.nextInt();
+        double c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+
+        System.out.println(c);
+    }
+
+}
